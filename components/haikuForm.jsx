@@ -125,7 +125,7 @@ export default function HaikuForm({ action, haiku }) {
 
             return (
               <button className="btn btn-primary mt-2" onClick={handleClick}>
-                Upload an Images
+                Upload an Image
               </button>
             );
           }}
