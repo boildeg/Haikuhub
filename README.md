@@ -16,13 +16,22 @@ A modern web application built with Next.js, featuring CRUD operations, authenti
 - MongoDB database
 - Cloudinary account
 
+## Tech Stack
+
+- **Frontend**: React, Next.js
+- **Styling**: Tailwind CSS, DaisyUI
+- **Database**: MongoDB
+- **Authentication**: JWT, bcrypt
+- **File Storage**: Cloudinary
+- **Build Tools**: PostCSS, Autoprefixer
+
 ## Installation
 
 1. Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd crud-next
+cd HaikuHub
 ```
 
 2. Install dependencies:
@@ -64,15 +73,6 @@ To start the production server:
 npm start
 ```
 
-## Tech Stack
-
-- **Frontend**: React, Next.js
-- **Styling**: Tailwind CSS, DaisyUI
-- **Database**: MongoDB
-- **Authentication**: JWT, bcrypt
-- **File Storage**: Cloudinary
-- **Build Tools**: PostCSS, Autoprefixer
-
 ## License
 
-ISC License
+MIT License
