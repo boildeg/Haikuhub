@@ -2,6 +2,10 @@
 
 A modern web application built with Next.js, featuring CRUD operations, authentication, and image upload capabilities.
 
+## Deployed demo on Vercel
+
+https://haikuhub.vercel.app (Example user: TestHaikuLogin, Pass: 123123qweqwe)
+
 ## Features
 
 - 🔐 User Authentication with JWT and bcrypt
