@@ -6,8 +6,7 @@ A modern web application built with Next.js, featuring CRUD operations, authenti
 
 https://haikuhub.vercel.app (Example user: TestHaikuLogin, Pass: 123123qweqwe)
 
-![image](https://shottr.cc/s/F8gR/SCR-20241215-n4g.jpeg)
-
+![image](public/haiku-dashboard.png)
 
 ## Features
 
