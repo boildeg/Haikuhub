@@ -16,12 +16,6 @@ https://haikuhub.vercel.app (Example user: TestHaikuLogin, Pass: 123123qweqwe)
 - 🎨 Modern UI with Tailwind CSS and DaisyUI
 - ⚡ Server-side rendering with Next.js
 
-## Prerequisites
-
-- Node.js (v18 or higher recommended)
-- MongoDB database
-- Cloudinary account
-
 ## Tech Stack
 
 - **Frontend**: React, Next.js
