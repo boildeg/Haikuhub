@@ -107,6 +107,13 @@ export default function HaikuForm({ action, haiku }) {
       <div className="mb-4">
         <CldUploadWidget
           signatureEndpoint="/widget-signature"
+          uploadPreset="ml_default"
+          onUpload={(result) => {
+            console.log("Upload result:", result);
+          }}
+          onError={(error) => {
+            console.error("Upload error:", error);
+          }}
           onQueuesEnd={(result, { widget }) => {
             widget.close();
           }}
