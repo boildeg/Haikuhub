@@ -106,6 +106,7 @@ export default function HaikuForm({ action, haiku }) {
       </div>
       <div className="mb-4">
         <CldUploadWidget
+          uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET}
           signatureEndpoint="/widget-signature"
           onQueuesEnd={(result, { widget }) => {
             widget.close();
