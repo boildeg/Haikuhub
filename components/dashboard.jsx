@@ -5,7 +5,7 @@ import Haiku from "@/components/haiku";
 const getHaiku = async function (userId) {
   const haikuCollection = await getCollection("haikus");
   const results = await haikuCollection
-    .find({ author: ObjectId.createFromHexString(userId) })
+    .find({ author: new ObjectId(userId) })
     .sort({ _id: -1 })
     .toArray();
 
